@@ -7,7 +7,7 @@ from telegram import Bot, Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import CommandHandler, MessageHandler, Filters, CallbackQueryHandler, Dispatcher
 from scraper import search_movies, get_movie
 
-TOKEN = "" # Insert Bot Token
+TOKEN = "8816025063:AAEJhjQd77RIL6SVZ0loquXRjepPVAh9JXI"
 URL = "" # Host on "https://vercel.com/" & Insert project URL like: "https://project-name.vercel.app"
 bot = Bot(TOKEN)
 
